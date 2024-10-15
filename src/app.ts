@@ -1,9 +1,9 @@
+import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import express, { Application, NextFunction, Request, Response } from 'express';
-import cookieParser from 'cookie-parser';
 
 
-const app: Application = express();
+     const app: Application = express();
 
 app.use(cors());
 app.use(cookieParser());
